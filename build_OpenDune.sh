@@ -20,8 +20,8 @@ USER_NAME="$(id -un)"
 echo "\n${PURPLE}This script is for compiling a native macOS build of:${NC}"
 echo "${GREEN}OpenDune - Dune II: The Building of a Dynasty\n${NC}"
 
-echo "${PURPLE}Place your Dune II game data in:${NC}"
-echo "${GREEN}/$USER_NAME/Library/Application Support/OpenDUNE${NC}\n"
+echo "${PURPLE}Place all the .PAK files from your original Dune II game data into:${NC}"
+echo "${GREEN}/$USER_NAME/Library/Application Support/OpenDUNE/data${NC}\n"
 
 echo "${PURPLE}${GREEN}Homebrew${PURPLE} and the ${GREEN}Xcode command-line tools${PURPLE} are required to build${NC}"
 echo "${PURPLE}If they are not present you will be prompted to install them${NC}\n"
